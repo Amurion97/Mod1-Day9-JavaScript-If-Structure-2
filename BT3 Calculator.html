@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .operator {
+            width: 50px;
+            height: 30px
+        }
+        /*.text-center {*/
+        /*    text-align: center;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+<!--            <td><input type="text" id="num1"></td>-->
+<!--            <td><input type="text" id="num2"></td>-->
+            <td colspan="4" id="result" class="operator text-end border border-primary"></td>
+        </tr>
+        <tr class="text-center">
+            <td><button class="operator border border-primary" id="but21" value="1">1</button></td>
+            <td><button class="operator border border-primary" id="but22" value="2">2</button></td>
+            <td><button class="operator border border-primary" id="but23" value="3">3</button></td>
+            <td>
+                <button class="operator border border-primary" id="but11" value="+">+</button>
+            </td>
+        </tr>
+        <tr class="text-center">
+            <td><button class="operator border border-primary" id="but24" value="4">4</button></td>
+            <td><button class="operator border border-primary" id="but25" value="5">5</button></td>
+            <td><button class="operator border border-primary" id="but26" value="6">6</button></td>
+            <td>
+                <button class="operator border border-primary" id="but12" value="-">-</button>
+            </td>
+        </tr>
+        <tr class="text-center">
+            <td><button class="operator border border-primary" id="but27" value="7">7</button></td>
+            <td><button class="operator border border-primary" id="but28" value="8">8</button></td>
+            <td><button class="operator border border-primary" id="but29" value="9">9</button></td>
+            <td>
+                <button class="operator border border-primary" id="but13" value="*">x</button>
+            </td>
+        </tr>
+        <tr class="text-center">
+            <td><button class="operator border border-primary" id="but15" value="C">C</button></td>
+            <td><button class="operator border border-primary" id="but20" value="0">0</button></td>
+            <td><button class="operator border border-primary" id="but10" value="=">=</button></td>
+            <td>
+                <button class="operator border border-primary" id="but14" value="/">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-right">
+<!--                <p class="margin-none"> Ket qua la: </p>-->
+            </td>
+            <td class="text-left">
+<!--                <p id="result" class="margin-none"></p>-->
+            </td>
+        </tr>
+    </table>
+    <script src="BT3 Calculator.js"></script>
+</body>
+</html>
